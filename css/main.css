@@ -1,0 +1,288 @@
+/* inter-regular - latin_cyrillic */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url("../fonts/inter-v11-latin_cyrillic-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/inter-v11-latin_cyrillic-regular.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-500 - latin_cyrillic */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url("../fonts/inter-v11-latin_cyrillic-500.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/inter-v11-latin_cyrillic-500.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-600 - latin_cyrillic */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    src:
+        url("../fonts/inter-v11-latin_cyrillic-600.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/inter-v11-latin_cyrillic-600.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin_cyrillic */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url("../fonts/inter-v11-latin_cyrillic-700.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/inter-v11-latin_cyrillic-700.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", "Arial", sans-serif;
+    background-color: #F1F4FF;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.card {
+    display: flex;
+}
+
+.first-card-text-top {
+    background-image: url(../images/back-image.png);
+    height: 600px;
+    padding-top: 55px;
+    padding-right: 121px;
+    padding-left: 60px;
+}
+
+.first-card {
+    width: 570px;
+    margin-right: 12px;
+
+}
+
+.first-card-top {
+    margin-bottom: 60px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: #fff;
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    border-radius: 41px;
+}
+
+.first-card-text {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.first-card-text-under {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 232px;
+}
+
+.first-card-text-under-box {
+    width: 357px;
+}
+
+.first-card-under-under {
+    width: 570px;
+    padding-top: 29px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #4DC490;
+}
+
+.first-card-under {
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+
+.second-card {
+    /* width: 570px; */
+    background-color: #fff;
+    padding-top: 55px;
+    padding-right: 82px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    border-radius: 20px;
+}
+
+.second-card-text {
+    margin: 0;
+    margin-bottom: 79px;
+    color: #000;
+    margin-bottom: 79px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+label {
+    display: block;
+    border: none;
+    width: 450px;
+}
+
+.user_name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.user_lastname {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.user-gmail {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.user-password {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.all {
+    width: 450px;
+    padding: 5px 5px 8px 0;
+    border: none;
+    border-bottom: 1px solid #555;
+    outline: none;
+    caret-color: #000;
+}
+
+.all::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.all:focus {
+    color: #000000;
+}
+
+input {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.all:focus {
+    border-bottom: 1px solid #000;
+}
+
+.button {
+    width: 450px;
+    margin-bottom: 8px;
+}
+
+.btn {
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-left: 149px;
+    background-color: #655AF2;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.second-card-button-under {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+.second-card-button-under>a {
+    color: #f00;
+}
+
+form label>span {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FF7979;
+    opacity: 0;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border-bottom: 1px solid #f00;
+    color: #f00;
+    background-position: calc(50% + 170px) calc(50%);
+    background-repeat: no-repeat;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid+span {
+    opacity: 1;
+}
